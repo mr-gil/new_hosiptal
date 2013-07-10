@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdu.edu.main"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.sdu.edu.main.Loginctivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sdu.edu.main.AdminActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.sdu.edu.main.XMUPageActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.main.CAROLPageActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.main.UDDActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.admin.AdminMainActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.admin.UpdateDoctorActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.admin.MergeDoctorActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.admin.MergeinsertActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.admin.AddpatientActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.admin.MergeinsertpatientActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.admin.MergePatientActivity" >
+        </activity>
+        <activity android:name="com.sdu.edu.admin.UpdatepatientActivity" >
+        </activity>
+         <activity android:name="com.sdu.edu.admin.AddbedActivity" >
+        </activity>
+        
+         <activity android:name="com.sdu.edu.admin.DeletebedActivity" >
+        </activity>
+         <activity android:name="com.sdu.edu.admin.MergebedActivity" >
+        </activity>
+         <activity android:name="com.sdu.edu.admin.MergeinsertBedActivity" >
+        </activity>
+        
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

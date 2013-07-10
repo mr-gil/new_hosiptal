@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFE1FF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/doctor_list_delete"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/doctor_del" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="vertical" >
+
+            <!-- 每一行的信息 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="ID:"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/doctor_list_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="001"
+                    android:textColor="#000000" />
+            </LinearLayout>
+            <!-- 每一行的信息 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:text="NAME:"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/doctor_list_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="001"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+<!-- 图片下每一行信息 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:text="Gender:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/doctor_list_gender"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:text="female"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:text="Fees:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/doctor_list_fees"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="1000"
+            android:textColor="#000000" />
+    </LinearLayout>
+    <!-- 图片下每一行信息 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:text="Speciality:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/doctor_list_speciatity"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:text="heart"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:text="Phone:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/doctor_list_phone"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="18765819380"
+            android:textSize="10dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+      <!-- 图片下每一行信息 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:text="Email:"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/doctor_list_email"
+            android:layout_width="100dp"
+            android:layout_height="15dp"
+            android:text="jianyangsong@gmail.com"
+            android:textSize="8dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="15dp"
+            android:text="Password"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/doctor_list_password"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="18765819380"
+              android:textSize="10dp"
+            android:textColor="#000000" />
+    </LinearLayout>
+    
+
+</LinearLayout>
