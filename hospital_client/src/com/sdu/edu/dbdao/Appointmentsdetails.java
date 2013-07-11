@@ -17,8 +17,8 @@ public class Appointmentsdetails extends AbstractAppointmentsdetails implements
 
 	/** full constructor */
 	public Appointmentsdetails(Integer patientId, Integer doctorId, Date date,
-			Time time) {
-		super(patientId, doctorId, date, time);
+			Time time, String ava) {
+		super(patientId, doctorId, date, time, ava);
 	}
 
 }

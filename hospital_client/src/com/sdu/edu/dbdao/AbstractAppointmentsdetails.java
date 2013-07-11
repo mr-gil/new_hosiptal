@@ -18,6 +18,7 @@ public abstract class AbstractAppointmentsdetails implements
 	private Integer doctorId;
 	private Date date;
 	private Time time;
+	private String ava;
 
 	// Constructors
 
@@ -27,11 +28,12 @@ public abstract class AbstractAppointmentsdetails implements
 
 	/** full constructor */
 	public AbstractAppointmentsdetails(Integer patientId, Integer doctorId,
-			Date date, Time time) {
+			Date date, Time time, String ava) {
 		this.patientId = patientId;
 		this.doctorId = doctorId;
 		this.date = date;
 		this.time = time;
+		this.ava = ava;
 	}
 
 	// Property accessors
@@ -74,6 +76,14 @@ public abstract class AbstractAppointmentsdetails implements
 
 	public void setTime(Time time) {
 		this.time = time;
+	}
+
+	public String getAva() {
+		return this.ava;
+	}
+
+	public void setAva(String ava) {
+		this.ava = ava;
 	}
 
 }
