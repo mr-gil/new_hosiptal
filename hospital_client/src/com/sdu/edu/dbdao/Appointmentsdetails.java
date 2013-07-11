@@ -1,6 +1,5 @@
 package com.sdu.edu.dbdao;
 
-import java.sql.Time;
 import java.util.Date;
 
 /**
@@ -17,7 +16,7 @@ public class Appointmentsdetails extends AbstractAppointmentsdetails implements
 
 	/** full constructor */
 	public Appointmentsdetails(Integer patientId, Integer doctorId, Date date,
-			Time time, String ava) {
+			String time, String ava) {
 		super(patientId, doctorId, date, time, ava);
 	}
 

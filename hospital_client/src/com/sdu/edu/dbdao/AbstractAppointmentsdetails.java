@@ -1,6 +1,5 @@
 package com.sdu.edu.dbdao;
 
-import java.sql.Time;
 import java.util.Date;
 
 /**
@@ -17,7 +16,7 @@ public abstract class AbstractAppointmentsdetails implements
 	private Integer patientId;
 	private Integer doctorId;
 	private Date date;
-	private Time time;
+	private String time;
 	private String ava;
 
 	// Constructors
@@ -28,7 +27,7 @@ public abstract class AbstractAppointmentsdetails implements
 
 	/** full constructor */
 	public AbstractAppointmentsdetails(Integer patientId, Integer doctorId,
-			Date date, Time time, String ava) {
+			Date date, String time, String ava) {
 		this.patientId = patientId;
 		this.doctorId = doctorId;
 		this.date = date;
@@ -70,11 +69,11 @@ public abstract class AbstractAppointmentsdetails implements
 		this.date = date;
 	}
 
-	public Time getTime() {
+	public String getTime() {
 		return this.time;
 	}
 
-	public void setTime(Time time) {
+	public void setTime(String time) {
 		this.time = time;
 	}
 
